@@ -1,4 +1,5 @@
 import { useFonts, Inter_400Regular, Inter_700Bold } from "@expo-google-fonts/inter"
+import * as Font from "expo-font"
 import { useState } from "react"
 import {
   Image,
@@ -167,8 +168,9 @@ const styles = StyleSheet.create({
     fontFamily: "InterBold", 
   },
   footer: {
-    marginTop: 160,
+    marginTop: 140,
     marginLeft: 210,
+    flex: 1,
   },
   footerText: {
     color: "#42a5f5",
